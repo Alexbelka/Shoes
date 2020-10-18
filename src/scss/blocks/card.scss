@@ -1,0 +1,44 @@
+.card{
+  min-height: 930px;
+  background:  url('../img/lightning.png') no-repeat 660px 130px,
+  url('../img/text.png') no-repeat center,
+  url("../img/background.jpg") no-repeat center top/cover;
+  border-top:1px solid transparent;
+}
+
+.card-shoe{
+  position: absolute;
+  right: (96/1266)*100%;
+  top:220px;
+}
+
+.card-title{
+  margin-top: 250px;
+  color:rgb(0,255,252);
+}
+
+.card-container{
+  width: (430/1266)*100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.card-container button{
+  display: block;
+  width: (200/430)*100%;
+  min-height: inherit;
+  border:1px solid rgb(255,255,255);
+  color:rgb(255,255,255);
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius:25px;
+  cursor:pointer;
+}
+
+.card-container button:hover{
+  background-color: rgb(0,236,244);
+  border:none;
+  box-shadow: 0px 10px 30px 0px rgba(20, 108, 113, 0.15);
+}
