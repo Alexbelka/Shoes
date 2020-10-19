@@ -1,0 +1,64 @@
+.footer{
+  min-height:195px;
+  background-color: rgb(33,46,48);
+}
+
+.wrapper--footer{
+  padding: 42px 0 53px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts{
+  display: flex;
+  align-items: center;
+}
+
+.contacts__item{
+  min-width: 80px;
+  min-height: 53px;
+}
+
+.contacts__item:nth-child(2),
+.contacts__item:nth-child(3),
+.contacts__item:nth-child(4){
+  margin-left: 100px;
+}
+
+.contacts__item-ref{
+  display: block;
+  width:80px;
+  height: 50px;
+  background: url('../img/Nike.png') no-repeat center;
+}
+
+.contacts__item-menu li a{
+  color:rgb(59,98,104);
+  font-size: 14px;
+  line-height:30px;
+}
+
+.networks{
+  min-width: 200px;
+  min-height: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.networks__item{
+  min-height:inherit;
+}
+
+
+.networks__item-ref{
+  display: block;
+  height: 100%;
+}
+
+.networks__item-ref img{
+filter: contrast(10%) brightness(60%);
+}
+
+
+

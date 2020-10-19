@@ -1,3 +1,67 @@
+.lastModel{
+  background:url('../img/backShape.png') no-repeat center top/cover;
+}
+
 .lastModel-pic{
-  margin:56px auto 158px;
+  margin:200px auto 200px;
+}
+
+.lastModel-state{
+text-transform: uppercase;
+}
+
+.lastModel-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lastModel-rating{
+  min-height: 45px;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+.lastModel-container{
+  margin-top: 20px;
+  min-height: 45px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.lastModel-container__item-price{
+  display: flex;
+  align-items: center;
+}
+
+.lastModel-container__item h2{
+color:rgb(245,0,87);
+}
+
+.lastModel-container__item button{
+  width: 130px;
+  min-height: 45px;
+  margin-left: 30px;
+  border-radius:20px;
+  background-color:rgb(0,236,244);
+  color:rgb(255,255,255);
+  text-transform: uppercase;
+  border:none;
+  outline: none;
+  box-shadow: 0px 10px 30px 0px rgba(20, 108, 113, 0.15);
+}
+
+
+.lastModel-container__item-ref{
+  display: block;
+  width:auto;
+  height: auto;
+  color:rgb(0,236,244);
+  font-weight: 400;
+  text-decoration: none;
 }

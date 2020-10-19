@@ -2,7 +2,6 @@
   min-height: 800px;
   position: relative;
   overflow: visible;
-  box-shadow: inset 0 0 2px 2px orange;
 }
 
 .item-inner{
@@ -10,7 +9,7 @@
   width: 100%;
   position: absolute;
   z-index: 10;
-  box-shadow: inset 0 0 2px 2px red;
+
   top:-200px;
   background:url('../img/BigWave.png') no-repeat,
           url('../img/BackWave.png') no-repeat 0 45px;
